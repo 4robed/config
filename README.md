@@ -5,6 +5,8 @@
 > sudo apt-get install xclip
 * Install urxvt
 > sudo apt-get install urxvt
+* Install JetbrainsMono font
+> https://www.jetbrains.com/lp/mono/
 
 ## 2. Config urxvt and setup trans.sh
 ### Config urxvt
