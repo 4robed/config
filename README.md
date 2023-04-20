@@ -1,6 +1,18 @@
-# config
+# Setup translate
 
-# config urxvt
+## 1. Install dependencies 
+* Intall xclip
+> sudo apt-get install xclip
+* Install urxvt
+> sudo apt-get install urxvt
+
+## 2. Config urxvt and setup trans.sh
+### Config urxvt
+```
+vim ~/.Xresources
+
+#copy-and-paste-below-config
+```
 
 ```
 !! Colorscheme
@@ -81,4 +93,15 @@ URxvt.keysym.M-u: perl:url-select:select_next
 URxvt.urlLauncher: firefox
 URxvt.underlineURLs: true
 URxvt.urlButton: 1
+```
+### Reload urxvt config
+>  xrdb ~/.Xresources  
+
+### setup trans.sh
+```
+vim /usr/local/bin/trans.sh
+
+#copy-and-paste-below-code-to-trans.sh
+
+urxvt -hold  -geometry 70x30+0+590 -e trans :vi  "`xclip -o`"
 ```
