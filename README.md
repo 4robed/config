@@ -1,7 +1,12 @@
 # Setup translate
 
 ## 1. Install dependencies 
-* Intall xclip
+* Install translate-shell, docs: https://github.com/soimort/translate-shell
+```
+$ wget git.io/trans
+$ chmod +x ./trans
+```
+* Install xclip
 > sudo apt-get install xclip
 * Install urxvt
 > sudo apt-get install rxvt-unicode
