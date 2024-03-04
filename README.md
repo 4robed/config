@@ -107,5 +107,5 @@ vim /usr/local/bin/trans.sh
 
 urxvt -hold  -geometry 70x30+0+590 -e trans :vi  "`xclip -o`"
 ```
-### set custom shortcut for tran.sh
+### set custom shortcut for trans.sh
 ![image](https://github.com/4robed/config/assets/54355222/688a1c37-568a-4b19-8dc6-31310645b9ba)
